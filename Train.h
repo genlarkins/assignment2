@@ -16,7 +16,7 @@ public:
     string getcargoType();
     int gettowWeight();
     void setcargoType(string cargo);
-    void settowWeight(int towWeight);
+    void settowWeight(int weight);
     virtual double mileageEstimate(double time);
     virtual string toString();
 };
