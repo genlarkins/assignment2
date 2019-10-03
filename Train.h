@@ -15,7 +15,7 @@ public:
     virtual ~Train();
     string getcargoType();
     int gettowWeight();
-    void setcargoType(string cargotype);
+    void setcargoType(string cargo);
     void settowWeight(int towWeight);
     virtual double mileageEstimate(double time);
     virtual string toString();
