@@ -1,4 +1,5 @@
 #include "Train.h"
+#include <random>
 
 Train::Train(string brand, string model, string fuelType, int towWeight, string loc){
 	setBrand(brand);
@@ -29,7 +30,7 @@ void Train::settowWeight(int weight){
 
 double Train::mileageEstimate(double time){
 	double mileage;
-	if(location == "City")
+	if(location == "City" || location == "city")
 	{
 	        std::random_device rd; // obtain a random number from hardware
 	        std::mt19937 eng(rd()); // seed the generator
