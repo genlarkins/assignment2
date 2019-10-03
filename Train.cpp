@@ -1,10 +1,11 @@
 #include "Train.h"
 
-Train::Train(string brand, string model, string fuelType, int towWeight){
+Train::Train(string brand, string model, string fuelType, int towWeight, string loc){
 	setBrand(brand);
     	setModel(model);
     	setFuelType(fuelType);
 	settowWeight(towWeight);
+	setLocation(loc);
 }
 
 Train::~Train() = default;
