@@ -1,4 +1,4 @@
-a.
+3.E.a.
 	Enumerating objects: 5, done.
 	Counting objects: 100% (5/5), done.
 	Delta compression using up to 4 threads
@@ -8,37 +8,42 @@ a.
 	remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 	To https://github.com/genlarkins/assignment2.git
 	   2715360..834695a  master -> master
-b.
-        8 commits
+3.E.b.
+        9 commits
         git rev-list --all --count
-c.
+3.E.c.
         Wed Sep 25 18:13:30 2019 -0400
         git log -- .gitignore
-d.
+3.E.d.
         One reason for branches in a Git repository is that they isolate development
         activities among team members. Another is that it ensures code changes are
         verified before they're delivered to other developers.
-e.
+3.E.e.
         Git log shows the information related to all the commits made. Git status
         shows the working tree status.
-f.
+3.E.f.
         git log Vehicle.h
-g.
+3.E.g.
         git log --grep=file
-h.
+3.E.h.
         Inheritance is when child classes can use functions/data from any parent
         class they are derived from.
         Polymorphism is when a derived class can redefine a function of a parent class.
         Encapsulation is what determines what can have access to data within a
         class throught the use of keywords such as public, private, and protected
-i.
+3.E.i.
         In the integration manager workflow, developers have their own repositories to push to
         while in the dictator and lieutenants workflow, developers push to their assigned
         lieutenant repository.
-j.
+3.E.j.
         Not everyone is allowed to push to the central repository and therefore
         reduces the chances of a ton of conflict occuring if 100 people are
         all trying to push into one directory. Instead by having the two lietenant
         repositories that go into the dictator repository, conflicts are solved earlier
         on at a smaller scale.
-
+5. 
+	The driving simulator prototype uses both encapsulation and polymorphism in 
+	each of the classes. It is seen in all the the .h files where member data 
+	and functions are declared under either public or private. Polymorphism is
+	seen when each class redefines/adds to the toString function derived from 
+	the Vehicle class.
